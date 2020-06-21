@@ -3,13 +3,15 @@ package demo
 object First {
   def main(args: Array[String]): Unit = {
     print("Hellow scala")
+    var demo1 = 19;
+    demo1 = 12
+    println(demo1)
     val obj = new Smartphone()
-    obj.Display()
+    //obj.Display()
   }
 }
 class Smartphone
 {
-
   // Class variables
   var number: Int = 16
   var nameofcompany: String = "Apple"
